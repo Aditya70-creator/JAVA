@@ -42,5 +42,15 @@ public class Part_6 {
 
         System.out.println(username);
         System.out.println(domain);
+
+        // ternary operator ? = Return 1 of 2 values if a condition is true
+
+        // variable = (condition) ? ifTrue : ifFalse;
+
+        int score = 70;
+
+        String passorFail = (score >= 60) ? "PASS" : "FAIL";
+
+        System.out.println(passorFail);
     }
 }
